@@ -143,9 +143,11 @@ function App() {
         <div className="relative z-10 max-w-4xl mx-auto animate-fade-in">
           <span className='italic text:xl md:text-2xl lg:text-3xl'>Hey👋 </span> 
           <span className='italic text:xl md:text-2xl lg:text-3xl'>I am</span> 
-          <h1 className="font-space-grotesk text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 dark:from-white dark:via-gray-300 dark:to-gray-500 text-transparent bg-clip-text animate-gradient">Rupa Mahindrakar</h1>
+          <h1 className="font-space-grotesk text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 dark:from-white dark:via-gray-300 dark:to-gray-500 text-transparent bg-clip-text animate-gradient">
+            Rupa Mahindrakar
+          </h1>
           <h2 className="font-space-grotesk text-3xl text-center italic font-bold mb-6 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 dark:from-white dark:via-gray-300 dark:to-gray-500 text-transparent bg-clip-text animate-gradient">
-            Frontend Developer
+            a Frontend Developer
           </h2>
           <div className="flex items-center gap-3 justify-center mb-12">
             <span className="inline-block w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
