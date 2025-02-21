@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code2, Boxes, Monitor, Terminal, Sun, Moon } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Code2, Boxes, Monitor, Terminal, Sun, Moon, Download, FileDown } from 'lucide-react';
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -141,7 +141,7 @@ function App() {
       <section id="home" className="animate-slide-up min-h-screen flex items-center justify-center px-4 relative overflow-hidden pt-16">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-100 via-white to-white dark:from-zinc-900 dark:via-black dark:to-black opacity-70 transition-colors duration-300"></div>
         <div className="relative z-10 max-w-4xl mx-auto animate-fade-in">
-          <h1 className="font-space-grotesk text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-center font-bold mb-6 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 dark:from-white dark:via-gray-300 dark:to-gray-500 text-transparent bg-clip-text animate-gradient">
+          <h1 className="font-space-grotesk text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 dark:from-white dark:via-gray-300 dark:to-gray-500 text-transparent bg-clip-text animate-gradient">
             Rupa Mahindrakar
           </h1>
           <h2 className="font-space-grotesk text-3xl text-center italic font-bold mb-6 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 dark:from-white dark:via-gray-300 dark:to-gray-500 text-transparent bg-clip-text animate-gradient">
@@ -160,9 +160,11 @@ function App() {
                className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-300">
               <Linkedin className="w-8 h-8" />
             </a>
-            <a href="mailto:rupamahindrakar08@gmail.com" 
+            <a href="/rupa-mahindrakar-resume.pdf" 
+               download="rupa-mahindrakar-resume.pdf"
                className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-300">
-              <Mail className="w-8 h-8" />
+              <FileDown className="w-8 h-8" />
+              {/* <span className="text-sm font-medium">Download Resume</span> */}
             </a>
           </div>
         </div>
