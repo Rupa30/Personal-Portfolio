@@ -78,7 +78,7 @@ function App() {
     {
       title: "CineBinge",
       description: "A movie and TV series discovery app with trending lists, detailed pop-ups, and YouTube trailer integration using the MovieDB API.",
-      tech: ["React", "Tailwind", "MovieDB API", "Material UI"],
+      tech: ["React", "Tailwind CSS", "MovieDB API", "Material UI"],
       image: cinebinge,
       url: "https://cine-binge-six.vercel.app/"
     },
