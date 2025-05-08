@@ -185,8 +185,8 @@ function App() {
               className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-300">
               <Linkedin className="w-8 h-8" />
             </a>
-            <a href="/rupa-mahindrakar-resume.pdf"
-              download="rupa-mahindrakar-resume.pdf"
+            <a href="/Rupa_Mahindrakar_FrontEnd-Developer.pdf" target="_blank" rel="noopener noreferrer"
+              download="Rupa_Mahindrakar_FrontEnd-Developer.pdf"
               className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-300">
               <FileDown className="w-8 h-8" />
             </a>
