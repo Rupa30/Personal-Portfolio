@@ -3,6 +3,8 @@ import { Github, Linkedin, Mail, ExternalLink, Code2, Boxes, Monitor, Terminal, 
 import shoeshub from './assets/images/shoeshub.png';
 import savorstreet from './assets/images/savorstreet.png';
 import cinebinge from './assets/images/cinebinge.png';
+import uiComp from './assets/images/uiComp.png';
+import interiorUI from './assets/images/interiorUI.png';
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -86,13 +88,27 @@ function App() {
       tech: ["React", "Vanilla CSS"],
       image: savorstreet,
       url: "https://savor-street-seven.vercel.app/"
+    },
+    {
+      title: "UI Component Library",
+      description: "A collection of common frontend interview coding challenges implemented in React, showcasing reusable components and best practices.",
+      tech: ["React", "Tailwind CSS"],
+      image: uiComp,
+      url: "https://ui-component-library-ten.vercel.app/"
+    },
+    {
+      title: "Interior Design UI",
+      description: "A visually appealing interior design website with a focus on aesthetics and user experience.",
+      tech: ["React", "Tailwind CSS", "ShadCN", "Framer Motion"],
+      image: interiorUI,
+      url: "https://interior-page-ui.vercel.app/"
     }
   ];
 
   const skills = [
-    { icon: <Code2 className="w-6 h-6" />, name: "Frontend Development", items: ["React", "TypeScript", "JavaScript"] },
+    { icon: <Code2 className="w-6 h-6" />, name: "Frontend Development", items: ["JavaScript", "React", "TypeScript"] },
     { icon: <Boxes className="w-6 h-6" />, name: "State Management", items: ["Redux", "Context API", "Hooks"] },
-    { icon: <Monitor className="w-6 h-6" />, name: "UI/UX", items: ["CSS", "Tailwind CSS", "ShadCN", "Material UI"] },
+    { icon: <Monitor className="w-6 h-6" />, name: "UI/UX", items: ["CSS", "Tailwind CSS", "ShadCN", "Material UI", "Framer"] },
     { icon: <Terminal className="w-6 h-6" />, name: "Tools", items: ["GitHub", "VS Code", "Vercel", "Chrome DevTools"] }
   ];
 
