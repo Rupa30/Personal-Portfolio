@@ -1,6 +1,6 @@
 # 🌐 Rupa Mahindrakar - Frontend Developer Portfolio
 
-Welcome to my personal portfolio website! This is a fully responsive, modern, and theme-toggle-enabled portfolio to showcase my work, skills, and experience as a Frontend Developer. Built with **React**, **Tailwind CSS**, and a sprinkle of animation & UI libraries, this site reflects my passion for clean code and sleek interfaces.
+Welcome to my personal portfolio website! This is a fully responsive, modern, and theme-toggle-enabled portfolio to showcase my work, skills, and experience as a Frontend Developer. Built with **React**, **Tailwind CSS**, **Framer Motion** and a sprinkle of animation & UI libraries, this site reflects my passion for clean code and sleek interfaces.
 
 ## 🚀 Live Demo
 👉 [Visit Portfolio](https://personal-portfolio-rupa30s-projects.vercel.app/) 
@@ -44,35 +44,18 @@ Here are a few featured projects you can find on the site:
 
 ---
 
-## 📌 Getting Started
-
-To run this portfolio locally:
-
-```bash
-git clone https://github.com/Rupa30/your-portfolio-repo.git
-cd your-portfolio-repo
-npm install
-npm run dev
-```
-
----
-
 ## 📬 Contact
 
 If you're hiring or want to collaborate on a frontend project:
 
 📧 Email: rupamahindrakar08@gmail.com
 
-💼 LinkedIn: linkedin.com/in/rupa-mahindrakar1
+💼 LinkedIn: [linkedin.com/in/rupa-mahindrakar1](https://www.linkedin.com/in/rupa-mahindrakar1/)
 
-🧑‍💻 GitHub: github.com/Rupa30
-
----
-
-## 📄 License
-
-This project is open source and free to use under the MIT License.
+🧑‍💻 GitHub: [github.com/Rupa30](https://github.com/Rupa30)
 
 ---
 
 ## ❤️ Built with passion & purpose by Rupa Mahindrakar
+
+---
