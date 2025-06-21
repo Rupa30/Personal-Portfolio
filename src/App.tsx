@@ -5,6 +5,7 @@ import savorstreet from './assets/images/savorstreet.png';
 import cinebinge from './assets/images/cinebinge.png';
 import uiComp from './assets/images/uiComp.png';
 import interiorUI from './assets/images/interiorUI.png';
+import blogspace from './assets/images/blogspace.png';
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -102,6 +103,13 @@ function App() {
       tech: ["React", "Tailwind CSS", "ShadCN", "Framer Motion"],
       image: interiorUI,
       url: "https://interior-page-ui.vercel.app/"
+    },
+    {
+      title: "BlogSpace",
+      description: "A blogging platform with user authentication, CRUD operation, and a clean, modern UI.",
+      tech: ["React", "TypeScript", "Supabase", "GSAP", "Radix UI", "Tailwind CSS" ],
+      image: blogspace,
+      url: "https://blogspacedotcom.vercel.app/"
     }
   ];
 
