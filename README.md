@@ -55,6 +55,7 @@ npm install
 npm run dev
 ```
 
+---
 
 ## 📬 Contact
 
@@ -66,8 +67,12 @@ If you're hiring or want to collaborate on a frontend project:
 
 🧑‍💻 GitHub: github.com/Rupa30
 
+---
+
 ## 📄 License
 
 This project is open source and free to use under the MIT License.
+
+---
 
 ## ❤️ Built with passion & purpose by Rupa Mahindrakar
